@@ -1,3 +1,5 @@
+#Esta es una forma de utilizar with open para abrir los archivos que se desean
+
 from os import strerror
 
 try:
