@@ -7,12 +7,19 @@
         <form action="resultados.html">
             <div>
                 <label for='nombreusuario'> Nombre de usuario </label>
-                <input name="nombreusuario" id="nombreusuario">
+                <input type='text'name="nombreusuario" id="nombreusuario" required>
             </div>
+            <br>
+            <div>
+                <label for="comentarios"> comentarios </label>
+                <input name="comentarios" id="comentarios">
+            </div>
+            <br>
             <div>
                 <label for='password'> Contrasena </label>
-                <input name='password'id="passwordd"> 
+                <input type='password'name='password'id="passwordd" required> 
             </div>
+            <button type="reset"> Reset </button>
             <button> Enviar </button>
         </form>
     </body>
