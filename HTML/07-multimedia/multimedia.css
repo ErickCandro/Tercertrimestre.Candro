@@ -5,4 +5,8 @@
 
 .imagen-principal {
     width: 100vw;
+    opacity: 0.5;
+}
+.imagen-principal:hover {
+    opacity: 1;
 }
